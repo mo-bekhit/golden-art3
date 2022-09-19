@@ -1,0 +1,349 @@
+
+
+
+
+
+
+header {
+    background-color: #eee;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7px 2px;
+}
+
+
+.logo {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+
+
+.navigation a:hover {
+    color:goldenrod;
+
+}
+
+
+section {
+    padding: 100px 200px;
+}
+
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/g.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+.main h2 { 
+    color:honeydew;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #eee;
+    font-size: 2em;
+    font-weight: 600;
+
+}
+
+
+.main h3 {
+    color: #eee;
+    font-size: 1.6em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.main-btn {
+    color: white;
+    background-color: goldenrod;
+    padding: 2px 2px 0 2px;
+    text-decoration: none;
+    font-size: 1.6em;
+    font: weight 700px;
+    display: inline-block;
+    padding: 0.9375em 2.1875;
+    letter-spacing: 1.3px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+}
+
+.main-btn:hover {
+    background-color:gold;
+    transform: scale(1.1);
+}
+
+.main-btn-2 {
+    padding: 2px 2px 0 2px;
+    color: black;
+    background-color: #eee;
+    text-decoration: none;
+    font-size: 1.4em;
+    font: weight 500px;
+    display: inline-block;
+    padding: 0.5375em 0.1875;
+    letter-spacing: 1.2px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    transition: 0.4s ease;
+}
+
+.main-btn-2:hover {
+    background-color: goldenrod;
+    color: white;
+    transform: scale(1.15);
+}
+
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    background-color: #eee;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.5s ease;
+}   
+
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+
+.info{
+    text-align: center;
+}
+
+.projects h2 {
+    background-color: white;
+}
+
+.info h3{
+    color: goldenrod;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects {
+    background-color: black;
+}
+
+.projects.content {
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #eee;
+    border: 1.5px solid whitesmoke;
+    min-height: 14em;
+    width: 16em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+}
+
+.project-image img{
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 1.6em;
+    color: black;
+}
+
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mony {
+    font-size: 1.4em;
+    font-weight: 200;
+    color:goldenrod;
+    background-color: black;
+    border-radius: 0.2em;
+    
+}
+
+.more-details {
+    color: black;
+    font-size: 1.2em;
+}
+
+.more-details:hover {
+    color: goldenrod;
+}
+
+.Black {
+    background-color: black;
+}
+
+.cards .title {
+    background-color: black;
+}
+
+.white h2 {
+    background-color: black;
+}
+
+.white .project-card {
+    box-shadow: 0 5px 25px rgb(0 0 0 / 44%);
+}
+
+.cards-contact {
+    background-color: black;
+}
+
+.cards-contact .watsab {
+    color: rgb(34, 182, 34);
+}
+
+.cards-contact .fone {
+    color: rgb(5, 5, 145);
+}
+
+.cards-contact p {
+    font-size: 1.5em;
+}
+
+@media (max-width:1020px){
+    header {
+        padding: 2px 4px;
+        justify-content: center;
+    }
+
+    .navigation a {
+        padding-left: 6px;
+    }
+
+    .title{
+        font-size: 1.5em;
+    }
+    
+    section {
+        padding: 10px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+    }
+
+    .main-content h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .project-card {
+        width: 22em;
+    }
+
+
+    header {
+        padding: 0;
+    }
+
+}
+
+@media (max-width:690px) {
+    body {
+        font-size: 10px;
+    }
+
+    .main-content h2 {
+        font-size: 0.8em;
+    }
+
+    .main-content h3 {
+        font-size: 1.4em;
+    }
+
+    .mony {
+        font-size: 1.9em;
+        font-weight: 200;
+        
+    }
+    
+    .more-details {
+        font-size: 1.8em;
+    }
+
+
+    
+}
+
+@media (max-width:300px){
+    body {
+        font-size: 9px;
+    }
+    
+}
